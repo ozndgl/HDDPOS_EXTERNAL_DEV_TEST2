@@ -1,0 +1,73 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.scpos.hddpos_external_dev_test"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+7-->D:\gecici\ipos\sample-uartloopback-master\HDDPOS_EXTERNAL_DEV_TEST2\app\src\main\AndroidManifest.xml:7:5-47
+8        android:minSdkVersion="14"
+8-->D:\gecici\ipos\sample-uartloopback-master\HDDPOS_EXTERNAL_DEV_TEST2\app\src\main\AndroidManifest.xml:7:5-47
+9        android:targetSdkVersion="17" />
+9-->D:\gecici\ipos\sample-uartloopback-master\HDDPOS_EXTERNAL_DEV_TEST2\app\src\main\AndroidManifest.xml:7:15-44
+10
+11    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+11-->D:\gecici\ipos\sample-uartloopback-master\HDDPOS_EXTERNAL_DEV_TEST2\app\src\main\AndroidManifest.xml:8:5-84
+11-->D:\gecici\ipos\sample-uartloopback-master\HDDPOS_EXTERNAL_DEV_TEST2\app\src\main\AndroidManifest.xml:8:22-81
+12    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+12-->D:\gecici\ipos\sample-uartloopback-master\HDDPOS_EXTERNAL_DEV_TEST2\app\src\main\AndroidManifest.xml:9:5-81
+12-->D:\gecici\ipos\sample-uartloopback-master\HDDPOS_EXTERNAL_DEV_TEST2\app\src\main\AndroidManifest.xml:9:22-78
+13    <uses-permission android:name="android.permission.INTERNET" />
+13-->D:\gecici\ipos\sample-uartloopback-master\HDDPOS_EXTERNAL_DEV_TEST2\app\src\main\AndroidManifest.xml:10:5-67
+13-->D:\gecici\ipos\sample-uartloopback-master\HDDPOS_EXTERNAL_DEV_TEST2\app\src\main\AndroidManifest.xml:10:22-64
+14    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+14-->D:\gecici\ipos\sample-uartloopback-master\HDDPOS_EXTERNAL_DEV_TEST2\app\src\main\AndroidManifest.xml:11:5-76
+14-->D:\gecici\ipos\sample-uartloopback-master\HDDPOS_EXTERNAL_DEV_TEST2\app\src\main\AndroidManifest.xml:11:22-73
+15    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+15-->D:\gecici\ipos\sample-uartloopback-master\HDDPOS_EXTERNAL_DEV_TEST2\app\src\main\AndroidManifest.xml:12:5-76
+15-->D:\gecici\ipos\sample-uartloopback-master\HDDPOS_EXTERNAL_DEV_TEST2\app\src\main\AndroidManifest.xml:12:22-73
+16    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+16-->D:\gecici\ipos\sample-uartloopback-master\HDDPOS_EXTERNAL_DEV_TEST2\app\src\main\AndroidManifest.xml:13:5-79
+16-->D:\gecici\ipos\sample-uartloopback-master\HDDPOS_EXTERNAL_DEV_TEST2\app\src\main\AndroidManifest.xml:13:22-76
+17    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+17-->D:\gecici\ipos\sample-uartloopback-master\HDDPOS_EXTERNAL_DEV_TEST2\app\src\main\AndroidManifest.xml:14:5-79
+17-->D:\gecici\ipos\sample-uartloopback-master\HDDPOS_EXTERNAL_DEV_TEST2\app\src\main\AndroidManifest.xml:14:22-76
+18
+19    <uses-feature
+19-->D:\gecici\ipos\sample-uartloopback-master\HDDPOS_EXTERNAL_DEV_TEST2\app\src\main\AndroidManifest.xml:16:9-18:39
+20        android:name="android.hardware.usb.host"
+20-->D:\gecici\ipos\sample-uartloopback-master\HDDPOS_EXTERNAL_DEV_TEST2\app\src\main\AndroidManifest.xml:17:13-53
+21        android:required="true" />
+21-->D:\gecici\ipos\sample-uartloopback-master\HDDPOS_EXTERNAL_DEV_TEST2\app\src\main\AndroidManifest.xml:18:13-36
+22
+23    <application
+23-->D:\gecici\ipos\sample-uartloopback-master\HDDPOS_EXTERNAL_DEV_TEST2\app\src\main\AndroidManifest.xml:20:5-33:19
+24        android:allowBackup="true"
+24-->D:\gecici\ipos\sample-uartloopback-master\HDDPOS_EXTERNAL_DEV_TEST2\app\src\main\AndroidManifest.xml:21:9-35
+25        android:debuggable="true"
+26        android:icon="@drawable/ic_launcher"
+26-->D:\gecici\ipos\sample-uartloopback-master\HDDPOS_EXTERNAL_DEV_TEST2\app\src\main\AndroidManifest.xml:22:9-45
+27        android:label="@string/app_name"
+27-->D:\gecici\ipos\sample-uartloopback-master\HDDPOS_EXTERNAL_DEV_TEST2\app\src\main\AndroidManifest.xml:23:9-41
+28        android:theme="@style/AppTheme" >
+28-->D:\gecici\ipos\sample-uartloopback-master\HDDPOS_EXTERNAL_DEV_TEST2\app\src\main\AndroidManifest.xml:24:9-40
+29        <activity
+29-->D:\gecici\ipos\sample-uartloopback-master\HDDPOS_EXTERNAL_DEV_TEST2\app\src\main\AndroidManifest.xml:25:9-32:20
+30            android:name="com.scpos.hddpos_external_dev_test.MainActivity"
+30-->D:\gecici\ipos\sample-uartloopback-master\HDDPOS_EXTERNAL_DEV_TEST2\app\src\main\AndroidManifest.xml:26:13-75
+31            android:label="@string/app_name" >
+31-->D:\gecici\ipos\sample-uartloopback-master\HDDPOS_EXTERNAL_DEV_TEST2\app\src\main\AndroidManifest.xml:27:13-45
+32            <intent-filter>
+32-->D:\gecici\ipos\sample-uartloopback-master\HDDPOS_EXTERNAL_DEV_TEST2\app\src\main\AndroidManifest.xml:28:13-31:29
+33                <action android:name="android.intent.action.MAIN" />
+33-->D:\gecici\ipos\sample-uartloopback-master\HDDPOS_EXTERNAL_DEV_TEST2\app\src\main\AndroidManifest.xml:29:17-69
+33-->D:\gecici\ipos\sample-uartloopback-master\HDDPOS_EXTERNAL_DEV_TEST2\app\src\main\AndroidManifest.xml:29:25-66
+34
+35                <category android:name="android.intent.category.LAUNCHER" />
+35-->D:\gecici\ipos\sample-uartloopback-master\HDDPOS_EXTERNAL_DEV_TEST2\app\src\main\AndroidManifest.xml:30:17-77
+35-->D:\gecici\ipos\sample-uartloopback-master\HDDPOS_EXTERNAL_DEV_TEST2\app\src\main\AndroidManifest.xml:30:27-74
+36            </intent-filter>
+37        </activity>
+38    </application>
+39
+40</manifest>

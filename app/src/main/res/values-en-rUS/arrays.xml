@@ -1,0 +1,801 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="mem_par">
+        <item>会员</item>
+        <item>会员需要使用类型</item>
+        <item>充值与实收的金额必须相等</item>
+        <item>充值卡会员付款时自动折扣</item>
+        <item>最大充值金额</item>
+        <item>充值卡付款必须全单满付</item>
+        <item>折扣时显示会员折扣详情</item>
+        <item>会员作废的时候打印账单</item>
+        <item>充值会员付款允许负数</item>
+        <item>启用本地会员营业时查卡</item>
+        <item>取款可取保本金额</item>
+        <item>可手动输入会员号</item>
+        <item>IC卡波特率</item>
+        <item>IC卡读写密码</item>
+        <item>卡类型</item>
+        <item>IC卡读写器</item>
+        <item>读写器接口</item>
+        <item>IC卡类型</item>
+        <item>IC卡</item>
+        <item>磁卡</item>
+        <item>无会员卡</item>
+    </string-array>
+    <string-array name="sys_array06">
+        <item>抹零(1)或四舍五入(2)</item>
+        <item>抹零方式</item>
+        <item>四舍五入方式</item>
+        <item>账单连续打印份数</item>
+        <item>外卖帐单连续打印份数</item>
+        <item>交班必需接班人</item>
+        <item>现金默认付全款</item>
+        <item>点菜数量不充许为负数</item>
+        <item>手工处理服务费</item>
+        <item>服务费记入低消差</item>
+        <item>退菜必须输入退菜原因</item>
+        <item>快餐必须输入台(牌)号</item>
+        <item>外卖落单立即结账</item>
+        <item>结账自动折扣</item>
+        <item>结账自动折扣值</item>
+        <item>点菜后自动进入数量录入</item>
+        <item>抹零默认当前操作员</item>
+        <item>经营业态</item>
+        <item>编码点菜启用半模糊查询</item>
+        <item>是否打印账单标识</item>
+        <item>付款单号的账单打印</item>
+        <item>账单打印单号宽度</item>
+        <item>账单打印单号行数</item>
+        <item>工号的账单打印</item>
+        <item>账单打印工号宽度</item>
+        <item>账单打印工号行数</item>
+        <item>餐桌的账单打印</item>
+        <item>账单打印餐桌宽度</item>
+        <item>账单打印餐桌行数</item>
+        <item>人数的账单打印</item>
+        <item>账单打印人数宽度</item>
+        <item>账单打印人数行数</item>
+        <item>结账时间的账单打印</item>
+        <item>账单打印结账时间宽度</item>
+        <item>账单打印结账时间行数</item>
+        <item>时长的账单打印</item>
+        <item>账单打印时长宽度</item>
+        <item>账单打印时长行数</item>
+        <item>外卖地址的账单打印</item>
+        <item>账单打印外卖地址宽度</item>
+        <item>账单打印外卖地址行数</item>
+        <item>外卖联系电话的账单打印</item>
+        <item>账单打印外卖联系电话宽度</item>
+        <item>账单打印外卖联系电话行数</item>
+        <item>外卖联系电话的账单打印</item>
+        <item>账单打印外卖联系电话宽度</item>
+        <item>账单打印外卖联系电话行数</item>
+        <item>结算服务员打印</item>
+        <item>结算服务员打印宽度</item>
+        <item>结算服务员打印行数</item>
+        <item>服务员名称打印</item>
+        <item>服务员名称打印宽度</item>
+        <item>服务员名称打印行数</item>
+        <item>开台备注</item>
+        <item>开台备注打印宽度</item>
+        <item>开台备注打印行数</item>
+        <item>表尾每行打印信息数</item>
+        <item>消费金额是否打印</item>
+        <item>折扣金额是否打印</item>
+        <item>赠送金额是否打印</item>
+        <item>服务费金额是否打印</item>
+        <item>低消金额是否打印</item>
+        <item>抹零金额是否打印</item>
+        <item>免单金额是否打印</item>
+        <item>应收金额是否打印</item>
+        <item>人均消费</item>
+        <item>实收现金</item>
+        <item>会员名称</item>
+        <item>会员类型</item>
+        <item>会员折扣</item>
+        <item>会员打印余额</item>
+        <item>会员打印积分</item>
+        <item>签名是否打印</item>
+        <item>账单内容打印方式</item>
+        <item>按大类分组</item>
+        <item>是否打印行序号</item>
+        <item>是否打印赠送标识</item>
+        <item>是否打印特价标识</item>
+        <item>超出字符设置截取</item>
+        <item>是否打印品名</item>
+        <item>品名列宽</item>
+        <item>品名行数</item>
+        <item>是否打印单位</item>
+        <item>单位列宽</item>
+        <item>单位行数</item>
+        <item>是否打印数量</item>
+        <item>数量列宽</item>
+        <item>数量行数</item>
+        <item>数量小位位</item>
+        <item>是否打印价格</item>
+        <item>价格列宽</item>
+        <item>价格行数</item>
+        <item>价格小位位</item>
+        <item>是否打印金额</item>
+        <item>金额列宽</item>
+        <item>金额行数</item>
+        <item>金额小位位</item>
+        <item>是否打印折扣</item>
+        <item>折扣列宽</item>
+        <item>折扣行数</item>
+        <item>是否厨打说明</item>
+        <item>标签打印模板</item>
+        <item>标签打印抬头</item>
+        <item>标签抬头打印所在行</item>
+        <item>标签打印品名</item>
+        <item>标签品名打印所在行</item>
+        <item>标签打印单号</item>
+        <item>标签单号打印所在行</item>
+        <item>标签打印时间</item>
+        <item>标签时间打印所在行</item>
+        <item>标签打印价格</item>
+        <item>标签价格打印所在行</item>
+        <item>标签打印做法</item>
+        <item>标签做法打印所在行</item>
+        <item>标签打印外卖电话</item>
+        <item>标签外卖电话打印所在行</item>
+        <item>标签打印标题</item>
+        <item>标签标题打印所在行</item>
+        <item>标签打印外卖地址</item>
+        <item>标签外卖地址打印所在行</item>
+        <item>是否进行流水号打印</item>
+        <item>流水号宽度</item>
+        <item>流水号列数</item>
+        <item>外卖落单进行厨打</item>
+    </string-array>
+    <string-array name="feesway">
+        <item>proportion commission</item>
+        <item>fixed commission</item>
+    </string-array>
+    <string-array name="lowway">
+        <item>table lowest consumption</item>
+        <item>lowest consumption per capita</item>
+    </string-array>
+    <string-array name="fdprinttype">
+        <item>one dish one list</item>
+        <item>one table one list</item>
+    </string-array>
+    <string-array name="order">
+        <item>ascending order</item>
+        <item>descending order</item>
+    </string-array>
+    <string-array name="types">
+        <item>whole number</item>
+        <item>decimal</item>
+    </string-array>
+    <string-array name="caozuofu">
+        <item>less than</item>
+        <item>more than</item>
+        <item>equal to</item>
+        <item>less than or equal to</item>
+        <item>more than or equal to</item>
+        <item>not equal to</item>
+        <item>include</item>
+        <item>left include</item>
+        <item>right include</item>
+    </string-array>
+    <string-array name="guanxi">
+        <item>and</item>
+        <item>or</item>
+    </string-array>
+    <string-array name="shuzi">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </string-array>
+    <string-array name="serviceMode">
+        <item>non-treatment</item>
+        <item>time unit</item>
+        <item>consuming amount service fee rate</item>
+        <item>table fixed amount</item>
+        <item>food consuming service fee rate</item>
+    </string-array>
+    <string-array name="packagePrintway">
+        <item>print together</item>
+        <item>only print main set meals</item>
+        <item>print set meal details</item>
+    </string-array>
+    <string-array name="mem_card_type">
+        <item>IC card</item>
+        <item>Mag card</item>
+        <item>no member card</item>
+    </string-array>
+    <string-array name="mem_write_device">
+        <item>Mingwah RF</item>
+    </string-array>
+    <string-array name="mem_port">
+        <item>USB</item>
+    </string-array>
+    <string-array name="mem_data_mem_type">
+        <item>coupon card</item>
+        <item>rechargeable card</item>
+    </string-array>
+    <string-array name="mem_data_preferential_type">
+        <item>fixed discount</item>
+    </string-array>
+    <string-array name="mem_data_isintegral">
+        <item>point</item>
+        <item>no point</item>
+    </string-array>
+    <string-array name="mem_array01">
+        <item>take the whole</item>
+        <item>keep the decimals</item>
+    </string-array>
+    <string-array name="mem_array02">
+        <item>consuming amount</item>
+        <item>To cope with the forehead</item>
+        <item>amount paid by card</item>
+    </string-array>
+    <string-array name="mem_prepaid">
+        <item>cash</item>
+        <item>bank card</item>
+        <item>cheque</item>
+    </string-array>
+    <string-array name="mem_card_state">
+        <item>all</item>
+        <item>normal</item>
+        <item>stop paying</item>
+        <item>report loss</item>
+        <item>cancel</item>
+        <item>Retired card</item>
+    </string-array>
+    <string-array name="sys_array01">
+        <item>single dish</item>
+        <item>single table</item>
+        <item>single open day</item>
+    </string-array>
+    <string-array name="sys_array02">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="sys_array03">
+        <item>restaurant mode</item>
+        <item>fast food mode</item>
+    </string-array>
+    <string-array name="sys_array04">
+        <item>table choosing among table types</item>
+        <item>table choosing in the dining area</item>
+    </string-array>
+    <string-array name="sys_array05">
+        <item>by large class</item>
+        <item>by small class</item>
+        <item>all</item>
+    </string-array>
+    <string-array name="sys_array07">
+        <item>network port print</item>
+        <item>USB print</item>
+        <item>A serial port to print</item>
+    </string-array>
+    <string-array name="sys_array08">
+        <item>PM-80-print</item>
+        <item>PM-58-print</item>
+    </string-array>
+    <string-array name="sys_array09">
+        <item>NONE</item>
+        <item>LPT1</item>
+        <item>LPT2</item>
+        <item>COM1</item>
+        <item>COM2</item>
+        <item>COM3</item>
+        <item>COM4</item>
+        <item>COM5</item>
+        <item>COM6</item>
+        <item>COM7</item>
+        <item>COM8</item>
+        <item>COM9</item>
+    </string-array>
+    <string-array name="sys_array10">
+        <item>NONE</item>
+        <item>LPT1</item>
+        <item>LPT2</item>
+        <item>COM1</item>
+        <item>COM2</item>
+        <item>COM3</item>
+        <item>COM4</item>
+        <item>COM5</item>
+        <item>COM6</item>
+        <item>COM7</item>
+        <item>COM8</item>
+        <item>COM9</item>
+        <item>Hisense370</item>
+        <item>Hisense9575</item>
+        <item>Hisense460/560</item>
+        <item>Hisense563/760</item>
+        <item>SED CR3001/CR3001A</item>
+        <item>DIGI-WebPrime-S+</item>
+    </string-array>
+    <string-array name="sys_array11">
+        <item>LED-8</item>
+    </string-array>
+    <string-array name="sys_array12">
+        <item>NONE</item>
+        <item>COM1</item>
+        <item>COM2</item>
+        <item>COM3</item>
+        <item>COM4</item>
+        <item>COM5</item>
+        <item>COM6</item>
+        <item>COM7</item>
+        <item>COM8</item>
+        <item>COM9</item>
+    </string-array>
+    <string-array name="sys_array13">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </string-array>
+    <string-array name="sys_array14">
+        <item>detail print</item>
+        <item>summary print</item>
+    </string-array>
+    <string-array name="sys_array15">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="sys_array16">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+    </string-array>
+    <string-array name="sys_array17">
+        <item>Argox203DT</item>
+        <item>SNBC L058</item>
+        <item>SNBC BTP-L320</item>
+    </string-array>
+    <string-array name="sys_array18">
+        <item>normal order</item>
+        <item>out-sell/take-out</item>
+        <item>print all</item>
+    </string-array>
+    <string-array name="sys_array19">
+        <item>30*40</item>
+        <item>35*45</item>
+        <item>35*58</item>
+    </string-array>
+    <string-array name="sys_array20">
+        <item>LPT1</item>
+        <item>LPT2</item>
+    </string-array>
+    <string-array name="sys_array21">
+        <item>COM1</item>
+        <item>COM2</item>
+        <item>COM3</item>
+        <item>COM4</item>
+    </string-array>
+    <string-array name="sys_array22">
+        <item>Kaifeng668A</item>
+    </string-array>
+    <string-array name="businessstatic1">
+        <item>consumption statistics</item>
+        <item>business comprehensive statistics</item>
+    </string-array>
+    <string-array name="businessstatic2">
+        <item>food item statistics</item>
+        <item>food type statistics</item>
+    </string-array>
+    <string-array name="the_report_center_array1">
+        <item>by food type</item>
+        <item>by table</item>
+        <item>by table type</item>
+        <item>by operator</item>
+        <item>by paying list number</item>
+        <item>by class of business duration</item>
+    </string-array>
+    <string-array name="the_report_center_array2">
+        <item>by table</item>
+        <item>by table type</item>
+        <item>by cashier</item>
+        <item>by cashing detail</item>
+        <item>by class of business duration</item>
+    </string-array>
+    <string-array name="the_report_center_array3">
+        <item>by food type inquiry</item>
+        <item>by table inquiry</item>
+        <item>by table type inquiry</item>
+        <item>by discount detail inquiry</item>
+    </string-array>
+    <string-array name="the_report_center_array4">
+        <item>by food type inquiry</item>
+        <item>by table inquiry</item>
+        <item>by table type inquiry</item>
+    </string-array>
+    <string-array name="the_report_center_array5">
+        <item>by food type inquiry</item>
+        <item>by table inquiry</item>
+        <item>by table type inquiry</item>
+        <item>by food canceller inquiry</item>
+        <item>by food cancelling detail inquiry</item>
+    </string-array>
+    <string-array name="the_report_center_array6">
+        <item>by food detail</item>
+        <item>by food type</item>
+        <item>by table number</item>
+        <item>by table type</item>
+        <item>by class of business duration</item>
+    </string-array>
+    <string-array name="the_report_center_array7">
+        <item>sales quantity</item>
+        <item>sales amount</item>
+        <item>discount amount</item>
+        <item>given amount</item>
+        <item>actual amount</item>
+    </string-array>
+    <string-array name="the_report_center_array8">
+        <item>consuming items</item>
+        <item>consuming amount</item>
+        <item>cashing times</item>
+        <item>cashing amount</item>
+        <item>opened table numbers</item>
+        <item>number of dining people</item>
+    </string-array>
+    <string-array name="lines">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="textsize">
+        <item>Large font</item>
+        <item>Regular font</item>
+    </string-array>
+    <string-array name="ser_type_select">
+        <item>MySQL</item>
+        <item>MsSQL</item>
+    </string-array>
+    <string-array name="two_dimension_code_size">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+    </string-array>
+    <string-array name="basic_array">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="paymode_array">
+        <item>cash</item>
+        <item>Prepaid phone CARDS</item>
+        <item>Bank card</item>
+        <item>vouchers</item>
+        <item>Micro letter to pay</item>
+        <item>No single amount</item>
+        <item>Automatic MaLing</item>
+        <item>Manual MaLing</item>
+    </string-array>
+    <string-array name="paymodeno_array">
+        <item>00</item>
+        <item>02</item>
+        <item>03</item>
+        <item>04</item>
+        <item>05</item>
+        <item>XX</item>
+        <item>YY</item>
+        <item>ZZ</item>
+    </string-array>
+    <string-array name="purviewno_array">
+        <item>0101</item>
+        <item>0102</item>
+        <item>0103</item>
+        <item>0104</item>
+        <item>0105</item>
+        <item>0106</item>
+        <item>0107</item>
+        <item>0110</item>
+        <item>0201</item>
+        <item>0202</item>
+        <item>0203</item>
+        <item>0204</item>
+        <item>0205</item>
+        <item>0206</item>
+        <item>0207</item>
+        <item>0208</item>
+        <item>0209</item>
+        <item>0210</item>
+        <item>0211</item>
+        <item>0212</item>
+        <item>0213</item>
+        <item>0214</item>
+        <item>0215</item>
+        <item>0216</item>
+        <item>0217</item>
+        <item>0218</item>
+        <item>0219</item>
+        <item>0220</item>
+        <item>0221</item>
+        <item>0222</item>
+        <item>0223</item>
+        <item>0224</item>
+        <item>0225</item>
+        <item>0226</item>
+        <item>0227</item>
+        <item>0228</item>
+        <item>0240</item>
+        <item>0241</item>
+        <item>0242</item>
+        <item>0243</item>
+        <item>0401</item>
+        <item>0402</item>
+        <item>0403</item>
+        <item>0404</item>
+        <item>0406</item>
+        <item>0407</item>
+        <item>0411</item>
+        <item>0413</item>
+        <item>0602</item>
+        <item>0603</item>
+        <item>0604</item>
+        <item>0605</item>
+        <item>0606</item>
+        <item>0609</item>
+        <item>0610</item>
+        <item>0611</item>
+        <item>0612</item>
+        <item>0701</item>
+        <item>0702</item>
+        <item>0703</item>
+        <item>0704</item>
+        <item>0705</item>
+        <item>0706</item>
+        <item>0707</item>
+        <item>0708</item>
+        <item>0710</item>
+        <item>0711</item>
+        <item>0712</item>
+        <item>0713</item>
+        <item>0714</item>
+        <item>0715</item>
+        <item>0719</item>
+        <item>0720</item>
+        <item>0901</item>
+        <item>0902</item>
+        <item>0903</item>
+        <item>0904</item>
+        <item>0905</item>
+        <item>0906</item>
+        <item>0907</item>
+        <item>0908</item>
+        <item>0909</item>
+        <item>1501</item>
+        <item>1502</item>
+        <item>1503</item>
+        <item>1504</item>
+        <item>1505</item>
+        <item>1506</item>
+    </string-array>
+    <string-array name="purview_array">
+        <item>Food information maintenance</item>
+        <item>Complete dinner data maintenance</item>
+        <item>Food kitchen set</item>
+        <item>Food is set</item>
+        <item>Table data maintenance</item>
+        <item>Cashier way maintenance</item>
+        <item>Business divisions</item>
+        <item>Special operation reason</item>
+        <item>Business documents query</item>
+        <item>The current set of statistics</item>
+        <item>Food sales queries </item>
+        <item>Cashier water query</item>
+        <item>Food specials query history </item>
+        <item>Out of stock food history query</item>
+        <item>Take-out cashier settlement</item>
+        <item>Counter lock state management</item>
+        <item>Open the box </item>
+        <item>founding</item>
+        <item>turntable</item>
+        <item>Taiwan elimination</item>
+        <item>I take your order</item>
+        <item>settlement</item>
+        <item>The food is urging</item>
+        <item>To order the turntable</item>
+        <item>Succession operation</item>
+        <item>Food back</item>
+        <item>Free service charge</item>
+        <item>To avoid low dissipation difference</item>
+        <item>Playing the bill in advance</item>
+        <item>Fast food are cancelled</item>
+        <item>Fast food take-away</item>
+        <item>At the front desk business statistics</item>
+        <item>Order in return</item>
+        <item>Increase the temporary food</item>
+        <item>The checkout</item>
+        <item>Single back</item>
+        <item>Business day</item>
+        <item>The front desk business</item>
+        <item>Today is special maintenance</item>
+        <item>Today out of stock</item>
+        <item>The member parameter Settings</item>
+        <item>The member information maintenance</item>
+        <item>Member state management</item>
+        <item>Top-up member prepaid phone</item>
+        <item>Members of integral management</item>
+        <item>Member type change</item>
+        <item>Member of the report</item>
+        <item>Membership card chip removal</item>
+        <item>Commodity warehousing</item>
+        <item>Goods return</item>
+        <item>Reported loss of single</item>
+        <item>stock-taking</item>
+        <item>Inventory query</item>
+        <item>Inventory query</item>
+        <item>Enters sells saves the summary report</item>
+        <item>Document summary query</item>
+        <item>Inventory parameter Settings</item>
+        <item>Food consumption report</item>
+        <item>Food sales report</item>
+        <item>Business statistics table</item>
+        <item>Food situation report</item>
+        <item>Food situation report</item>
+        <item>Business cashier report</item>
+        <item>Service charge and low dissipation of the query</item>
+        <item>Cashier from single query condition</item>
+        <item>Weeks statement analysis</item>
+        <item>Business statistics</item>
+        <item>Business day the sales statistics</item>
+        <item>Category sales business analysis</item>
+        <item>Time business analysis</item>
+        <item>Food sales ranking statistics</item>
+        <item>The waiter commission query</item>
+        <item>The checkout query</item>
+        <item>Direct selling goods gross profit table</item>
+        <item>Company information set</item>
+        <item>System parameter Settings</item>
+        <item>The operator data maintenance</item>
+        <item>Operation rights maintenance</item>
+        <item>The database backup</item>
+        <item>Basic data export</item>
+        <item>Basic data import</item>
+        <item>The business data to remove</item>
+        <item>permissions</item>
+        <item>SMS group management</item>
+        <item>SMS member management</item>
+        <item>SMS Settings</item>
+        <item>SMS single-shot</item>
+        <item>Group messaging</item>
+        <item>Text query</item>
+    </string-array>
+    <string-array name="purviewtype_array">
+        <item>Data maintenance</item>
+        <item>Data maintenance</item>
+        <item>Data maintenance</item>
+        <item>Data maintenance</item>
+        <item>Data maintenance</item>
+        <item>Data maintenance</item>
+        <item>Data maintenance</item>
+        <item>Data maintenance</item>
+        <item>The business management</item>
+        <item>The business management</item>
+        <item>The business management</item>
+        <item>The business management</item>
+        <item>The business management</item>
+        <item>The business management</item>
+        <item>The business management</item>
+        <item>The business management</item>
+        <item>The business management</item>
+        <item>The business management</item>
+        <item>The business management</item>
+        <item>The business management</item>
+        <item>The business management</item>
+        <item>The business management</item>
+        <item>The business management</item>
+        <item>The business management</item>
+        <item>The business management</item>
+        <item>The business management</item>
+        <item>The business management</item>
+        <item>The business management</item>
+        <item>The business management</item>
+        <item>The business management</item>
+        <item>The business management</item>
+        <item>The business management</item>
+        <item>The business management</item>
+        <item>The business management</item>
+        <item>The business management</item>
+        <item>The business management</item>
+        <item>The business management</item>
+        <item>The business management</item>
+        <item>The business management</item>
+        <item>The business management</item>
+        <item>Member management</item>
+        <item>Member management</item>
+        <item>Member management</item>
+        <item>Member management</item>
+        <item>Member management</item>
+        <item>Member management</item>
+        <item>Member management</item>
+        <item>Member management</item>
+        <item>Inventory management</item>
+        <item>Inventory management</item>
+        <item>Inventory management</item>
+        <item>Inventory management</item>
+        <item>Inventory management</item>
+        <item>Inventory management</item>
+        <item>Inventory management</item>
+        <item>Inventory management</item>
+        <item>Inventory management</item>
+        <item>The report center</item>
+        <item>The report center</item>
+        <item>The report center</item>
+        <item>The report center</item>
+        <item>The report center</item>
+        <item>The report center</item>
+        <item>The report center</item>
+        <item>The report center</item>
+        <item>The report center</item>
+        <item>The report center</item>
+        <item>The report center</item>
+        <item>The report center</item>
+        <item>The report center</item>
+        <item>The report center</item>
+        <item>The report center</item>
+        <item>The report center</item>
+        <item>System management</item>
+        <item>The business management</item>
+        <item>System management</item>
+        <item>System management</item>
+        <item>System management</item>
+        <item>System management</item>
+        <item>System management</item>
+        <item>System management</item>
+        <item>System management</item>
+        <item>SMS management</item>
+        <item>SMS management</item>
+        <item>SMS management</item>
+        <item>SMS management</item>
+        <item>SMS management</item>
+        <item>SMS management</item>
+    </string-array>
+
+    <string-array name="inven_par">
+        <item>Inventory documents print total position</item>
+        <item>Inventory documents print total position</item>
+        <item>Use warehouse price update purchasing price</item>
+    </string-array>
+    
+    <string-array name="rateSet_array">
+        <item>115200</item>
+        <item>38400</item>
+        <item>56000</item>
+        <item>57600</item>
+        <item>9600</item>
+    </string-array>
+    
+</resources>

@@ -1,0 +1,821 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="feesway">
+        <item>比例提成</item>
+        <item>定额提成</item>
+    </string-array>
+    <string-array name="lowway">
+        <item>餐桌低消</item>
+        <item>人均低消</item>
+    </string-array>
+    <string-array name="fdprinttype">
+        <item>一菜一单</item>
+        <item>一桌一单</item>
+    </string-array>
+    <string-array name="order">
+        <item>升序</item>
+        <item>降序</item>
+    </string-array>
+    <string-array name="types">
+        <item>整数</item>
+        <item>小数</item>
+    </string-array>
+    <string-array name="caozuofu">
+        <item>小于</item>
+        <item>大于</item>
+        <item>等于</item>
+        <item>小于等于</item>
+        <item>大于等于</item>
+        <item>不等于</item>
+        <item>含有</item>
+        <item>左含有</item>
+        <item>右含有</item>
+    </string-array>
+    <string-array name="guanxi">
+        <item>并且</item>
+        <item>或者</item>
+    </string-array>
+    <string-array name="shuzi">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </string-array>
+    <string-array name="serviceMode">
+        <item>不处理</item>
+        <item>时间单位</item>
+        <item>消费额服务费率</item>
+        <item>餐桌定额</item>
+        <item>菜品消费服务费率</item>
+    </string-array>
+    <string-array name="packagePrintway">
+        <item>打印在一起</item>
+        <item>只打主套餐</item>
+        <item>打印套餐明细</item>
+    </string-array>
+    <string-array name="mem_card_type">
+        <item>IC卡</item>
+        <item>磁卡</item>
+        <item>无会员卡</item>
+    </string-array>
+    <string-array name="mem_write_device">
+
+        <!--
+        <item>明华澳汉</item>
+        <item>诚希</item>
+        <item>日科创想IT卡</item>
+        <item>SATR-TCP300/400</item>
+        <item>川田(可编程键盘)</item>
+        <item>REDORMER-4100U</item>
+        -->
+        <item>明华RF</item>
+    </string-array>
+    <string-array name="mem_port">
+
+        <!--
+        <item>COM1</item>
+        <item>COM2</item>
+        <item>COM3</item>
+        <item>COM4</item>
+        <item>COM5</item>
+        <item>COM6</item>
+        -->
+        <item>USB</item>
+    </string-array>
+    <string-array name="mem_data_mem_type">
+        <item>优惠卡</item>
+        <item>充值卡</item>
+    </string-array>
+    <string-array name="mem_data_preferential_type">
+        <item>固定折扣</item>
+    </string-array>
+    <string-array name="mem_data_isintegral">
+        <item>积分</item>
+        <item>不积分</item>
+    </string-array>
+    <string-array name="mem_array01">
+        <item>取整</item>
+        <item>保留小数</item>
+    </string-array>
+    <string-array name="mem_array02">
+        <item>消费额</item>
+        <item>应付额</item>
+        <item>卡付额</item>
+    </string-array>
+    <string-array name="mem_prepaid">
+        <item>现金</item>
+        <item>银行卡</item>
+        <item>支票</item>
+    </string-array>
+    <string-array name="mem_card_state">
+        <item>全部</item>
+        <item>正常</item>
+        <item>止付</item>
+        <item>挂失</item>
+        <item>作废</item>
+        <item>已退卡</item>
+    </string-array>
+    <string-array name="sys_array01">
+        <item>单品</item>
+        <item>单桌</item>
+        <item>单营业日</item>
+    </string-array>
+    <string-array name="sys_array02">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="sys_array03">
+        <item>酒楼模式</item>
+        <item>快餐模式</item>
+    </string-array>
+    <string-array name="sys_array04">
+        <item>桌类选台</item>
+        <item>餐区选台</item>
+    </string-array>
+    <string-array name="sys_array05">
+        <item>按大类</item>
+        <item>按小类</item>
+        <item>全部</item>
+    </string-array>
+    <string-array name="sys_array06">
+        <item>抹零(1)或四舍五入(2)</item>
+        <item>抹零方式</item>
+        <item>四舍五入方式</item>
+        <item>账单连续打印份数</item>
+        <item>外卖帐单连续打印份数</item>
+        <item>交班必需接班人</item>
+        <item>现金默认付全款</item>
+        <item>点菜数量不充许为负数</item>
+        <item>手工处理服务费</item>
+        <item>服务费记入低消差</item>
+        <item>退菜必须输入退菜原因</item>
+        <item>快餐必须输入台(牌)号</item>
+        <item>外卖落单立即结账</item>
+        <item>结账自动折扣</item>
+        <item>结账自动折扣值</item>
+        <item>点菜后自动进入数量录入</item>
+        <item>抹零默认当前操作员</item>
+        <item>经营业态</item>
+        <item>编码点菜启用半模糊查询</item>
+        <item>是否打印账单标识</item>
+        <item>付款单号的账单打印</item>
+        <item>账单打印单号宽度</item>
+        <item>账单打印单号行数</item>
+        <item>工号的账单打印</item>
+        <item>账单打印工号宽度</item>
+        <item>账单打印工号行数</item>
+        <item>餐桌的账单打印</item>
+        <item>账单打印餐桌宽度</item>
+        <item>账单打印餐桌行数</item>
+        <item>人数的账单打印</item>
+        <item>账单打印人数宽度</item>
+        <item>账单打印人数行数</item>
+        <item>结账时间的账单打印</item>
+        <item>账单打印结账时间宽度</item>
+        <item>账单打印结账时间行数</item>
+        <item>时长的账单打印</item>
+        <item>账单打印时长宽度</item>
+        <item>账单打印时长行数</item>
+        <item>外卖地址的账单打印</item>
+        <item>账单打印外卖地址宽度</item>
+        <item>账单打印外卖地址行数</item>
+        <item>外卖联系电话的账单打印</item>
+        <item>账单打印外卖联系电话宽度</item>
+        <item>账单打印外卖联系电话行数</item>
+        <item>外卖联系电话的账单打印</item>
+        <item>账单打印外卖联系电话宽度</item>
+        <item>账单打印外卖联系电话行数</item>
+        <item>结算服务员打印</item>
+        <item>结算服务员打印宽度</item>
+        <item>结算服务员打印行数</item>
+        <item>服务员名称打印</item>
+        <item>服务员名称打印宽度</item>
+        <item>服务员名称打印行数</item>
+        <item>开台备注</item>
+        <item>开台备注打印宽度</item>
+        <item>开台备注打印行数</item>
+        <item>表尾每行打印信息数</item>
+        <item>消费金额是否打印</item>
+        <item>折扣金额是否打印</item>
+        <item>赠送金额是否打印</item>
+        <item>服务费金额是否打印</item>
+        <item>低消金额是否打印</item>
+        <item>抹零金额是否打印</item>
+        <item>免单金额是否打印</item>
+        <item>应收金额是否打印</item>
+        <item>人均消费</item>
+        <item>实收现金</item>
+        <item>会员名称</item>
+        <item>会员类型</item>
+        <item>会员折扣</item>
+        <item>会员打印余额</item>
+        <item>会员打印积分</item>
+        <item>签名是否打印</item>
+        <item>账单内容打印方式</item>
+        <item>按大类分组</item>
+        <item>是否打印行序号</item>
+        <item>是否打印赠送标识</item>
+        <item>是否打印特价标识</item>
+        <item>超出字符设置截取</item>
+        <item>是否打印品名</item>
+        <item>品名列宽</item>
+        <item>品名行数</item>
+        <item>是否打印单位</item>
+        <item>单位列宽</item>
+        <item>单位行数</item>
+        <item>是否打印数量</item>
+        <item>数量列宽</item>
+        <item>数量行数</item>
+        <item>数量小位位</item>
+        <item>是否打印价格</item>
+        <item>价格列宽</item>
+        <item>价格行数</item>
+        <item>价格小位位</item>
+        <item>是否打印金额</item>
+        <item>金额列宽</item>
+        <item>金额行数</item>
+        <item>金额小位位</item>
+        <item>是否打印折扣</item>
+        <item>折扣列宽</item>
+        <item>折扣行数</item>
+        <item>是否厨打说明</item>
+        <item>标签打印模板</item>
+        <item>标签打印抬头</item>
+        <item>标签抬头打印所在行</item>
+        <item>标签打印品名</item>
+        <item>标签品名打印所在行</item>
+        <item>标签打印单号</item>
+        <item>标签单号打印所在行</item>
+        <item>标签打印时间</item>
+        <item>标签时间打印所在行</item>
+        <item>标签打印价格</item>
+        <item>标签价格打印所在行</item>
+        <item>标签打印做法</item>
+        <item>标签做法打印所在行</item>
+        <item>标签打印外卖电话</item>
+        <item>标签外卖电话打印所在行</item>
+        <item>标签打印标题</item>
+        <item>标签标题打印所在行</item>
+        <item>标签打印外卖地址</item>
+        <item>标签外卖地址打印所在行</item>
+        <item>是否进行流水号打印</item>
+        <item>流水号宽度</item>
+        <item>流水号列数</item>
+        <item>外卖落单进行厨打</item>
+    </string-array>
+    <string-array name="sys_array07">
+        <item>网口打印</item>
+        <item>USB打印</item>
+        <item>串口打印</item>
+    </string-array>
+    <string-array name="sys_array08">
+        <item>PM-80-print</item>
+        <item>PM-58-print</item>
+    </string-array>
+    <string-array name="sys_array09">
+        <item>NONE</item>
+        <item>LPT1</item>
+        <item>LPT2</item>
+        <item>COM1</item>
+        <item>COM2</item>
+        <item>COM3</item>
+        <item>COM4</item>
+        <item>COM5</item>
+        <item>COM6</item>
+        <item>COM7</item>
+        <item>COM8</item>
+        <item>COM9</item>
+    </string-array>
+    <string-array name="sys_array10">
+        <item>NONE</item>
+        <item>LPT1</item>
+        <item>LPT2</item>
+        <item>COM1</item>
+        <item>COM2</item>
+        <item>COM3</item>
+        <item>COM4</item>
+        <item>COM5</item>
+        <item>COM6</item>
+        <item>COM7</item>
+        <item>COM8</item>
+        <item>COM9</item>
+        <item>海信370</item>
+        <item>海信9575</item>
+        <item>海信460/560</item>
+        <item>海信563/760</item>
+        <item>桑达CR3001/CR3001A</item>
+        <item>DIGI-WebPrime-S+</item>
+    </string-array>
+    <string-array name="sys_array11">
+        <item>LED-8</item>
+    </string-array>
+    <string-array name="sys_array12">
+        <item>NONE</item>
+        <item>COM1</item>
+        <item>COM2</item>
+        <item>COM3</item>
+        <item>COM4</item>
+        <item>COM5</item>
+        <item>COM6</item>
+        <item>COM7</item>
+        <item>COM8</item>
+        <item>COM9</item>
+    </string-array>
+    <string-array name="sys_array13">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </string-array>
+    <string-array name="sys_array14">
+        <item>明细打印</item>
+        <item>汇总打印</item>
+    </string-array>
+    <string-array name="sys_array15">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="sys_array16">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+    </string-array>
+    <string-array name="sys_array17">
+        <item>立象203DT</item>
+        <item>北洋L058</item>
+        <item>北洋BTP-L320</item>
+    </string-array>
+    <string-array name="sys_array18">
+        <item>正常点单</item>
+        <item>外卖/外带</item>
+        <item>全部打印</item>
+    </string-array>
+    <string-array name="sys_array19">
+        <item>30*40</item>
+        <item>35*45</item>
+        <item>35*58</item>
+    </string-array>
+    <string-array name="sys_array20">
+        <item>LPT1</item>
+        <item>LPT2</item>
+    </string-array>
+    <string-array name="sys_array21">
+        <item>COM1</item>
+        <item>COM2</item>
+        <item>COM3</item>
+        <item>COM4</item>
+    </string-array>
+    <string-array name="sys_array22">
+        <item>凯丰 668A</item>
+        <item>有中恒</item>
+    </string-array>
+    <string-array name="businessstatic1">
+        <item>消费情况统计</item>
+        <item>营业综合统计</item>
+    </string-array>
+    <string-array name="businessstatic2">
+        <item>品项统计</item>
+        <item>品类统计</item>
+    </string-array>
+    <string-array name="the_report_center_array1">
+        <item>按菜品类别</item>
+        <item>按餐桌</item>
+        <item>按餐桌类型</item>
+        <item>按操作员</item>
+        <item>按付款单号</item>
+        <item>按班次营业时段</item>
+    </string-array>
+    <string-array name="the_report_center_array2">
+        <item>按餐桌</item>
+        <item>按餐桌类型</item>
+        <item>按收银员</item>
+        <item>按收银明细</item>
+        <item>按班次营业时段</item>
+    </string-array>
+    <string-array name="the_report_center_array3">
+        <item>按菜品类型查询</item>
+        <item>按餐桌查询</item>
+        <item>按餐桌类型查询</item>
+        <item>按折扣明细查询</item>
+    </string-array>
+    <string-array name="the_report_center_array4">
+        <item>按菜品类型查询</item>
+        <item>按餐桌查询</item>
+        <item>按餐桌类型查询</item>
+    </string-array>
+    <string-array name="the_report_center_array5">
+        <item>按菜品类型查询</item>
+        <item>按餐桌查询</item>
+        <item>按餐桌类型查询</item>
+        <item>按退菜人查询</item>
+        <item>按退菜明细查询</item>
+    </string-array>
+    <string-array name="the_report_center_array6">
+        <item>按菜品明细</item>
+        <item>按菜品类型</item>
+        <item>按餐桌号</item>
+        <item>按餐桌类型</item>
+        <item>按班次营业时段</item>
+    </string-array>
+    <string-array name="the_report_center_array7">
+        <item>销售数量</item>
+        <item>销售金额</item>
+        <item>折扣金额</item>
+        <item>赠送金额</item>
+        <item>实际金额</item>
+    </string-array>
+    <string-array name="the_report_center_array8">
+        <item>消费项数</item>
+        <item>消费金额</item>
+        <item>收银次数</item>
+        <item>收银金额</item>
+        <item>开台桌位数</item>
+        <item>就餐人数</item>
+    </string-array>
+    <string-array name="lines">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="textsize">
+        <item>大字体</item>
+        <item>普通字体</item>
+    </string-array>
+    <string-array name="ser_type_select">
+        <item>MySQL</item>
+        <item>MsSQL</item>
+    </string-array>
+    <string-array name="two_dimension_code_size">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+    </string-array>
+    <string-array name="basic_array">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="mem_par">
+        <item>会员</item>
+        <item>会员需要使用类型</item>
+        <item>充值与实收的金额必须相等</item>
+        <item>充值卡会员付款时自动折扣</item>
+        <item>最大充值金额</item>
+        <item>充值卡付款必须全单满付</item>
+        <item>折扣时显示会员折扣详情</item>
+        <item>会员作废的时候打印账单</item>
+        <item>充值会员付款允许负数</item>
+        <item>启用本地会员营业时查卡</item>
+        <item>取款可取保本金额</item>
+        <item>可手动输入会员号</item>
+        <item>IC卡波特率</item>
+        <item>IC卡读写密码</item>
+        <item>卡类型</item>
+        <item>IC卡读写器</item>
+        <item>读写器接口</item>
+        <item>IC卡类型</item>
+        <item>IC卡</item>
+        <item>磁卡</item>
+        <item>无会员卡</item>
+    </string-array>
+   
+    <string-array name="paymode_array">
+        <item>现金</item>
+        <item>充值卡</item>
+        <item>银行卡</item>
+        <item>代金券</item>
+        <item>微信支付</item>
+        <item>免单金额</item>
+        <item>自动抹零</item>
+        <item>手工抹零</item>
+    </string-array>
+    <string-array name="paymodeno_array">
+        <item>00</item>
+        <item>02</item>
+        <item>03</item>
+        <item>04</item>
+        <item>05</item>
+        <item>XX</item>
+        <item>YY</item>
+        <item>ZZ</item>
+    </string-array>
+    <string-array name="purviewno_array">
+        <item>0101</item>
+        <item>0102</item>
+        <item>0103</item>
+        <item>0104</item>
+        <item>0105</item>
+        <item>0106</item>
+        <item>0107</item>
+        <item>0110</item>
+        <item>0201</item>
+        <item>0202</item>
+        <item>0203</item>
+        <item>0204</item>
+        <item>0205</item>
+        <item>0206</item>
+        <item>0207</item>
+        <item>0208</item>
+        <item>0209</item>
+        <item>0210</item>
+        <item>0211</item>
+        <item>0212</item>
+        <item>0213</item>
+        <item>0214</item>
+        <item>0215</item>
+        <item>0216</item>
+        <item>0217</item>
+        <item>0218</item>
+        <item>0219</item>
+        <item>0220</item>
+        <item>0221</item>
+        <item>0222</item>
+        <item>0223</item>
+        <item>0224</item>
+        <item>0225</item>
+        <item>0226</item>
+        <item>0227</item>
+        <item>0228</item>
+        <item>0240</item>
+        <item>0241</item>
+        <item>0242</item>
+        <item>0243</item>
+        <item>0401</item>
+        <item>0402</item>
+        <item>0403</item>
+        <item>0404</item>
+        <item>0406</item>
+        <item>0407</item>
+        <item>0411</item>
+        <item>0413</item>
+        <item>0602</item>
+        <item>0603</item>
+        <item>0604</item>
+        <item>0605</item>
+        <item>0606</item>
+        <item>0609</item>
+        <item>0610</item>
+        <item>0611</item>
+        <item>0612</item>
+        <item>0701</item>
+        <item>0702</item>
+        <item>0703</item>
+        <item>0704</item>
+        <item>0705</item>
+        <item>0706</item>
+        <item>0707</item>
+        <item>0708</item>
+        <item>0710</item>
+        <item>0711</item>
+        <item>0712</item>
+        <item>0713</item>
+        <item>0714</item>
+        <item>0715</item>
+        <item>0719</item>
+        <item>0720</item>
+        <item>0901</item>
+        <item>0902</item>
+        <item>0903</item>
+        <item>0904</item>
+        <item>0905</item>
+        <item>0906</item>
+        <item>0907</item>
+        <item>0908</item>
+        <item>0909</item>
+        <item>1501</item>
+        <item>1502</item>
+        <item>1503</item>
+        <item>1504</item>
+        <item>1505</item>
+        <item>1506</item>
+    </string-array>
+    <string-array name="purview_array">
+        <item>菜品资料维护</item>
+        <item>套菜资料维护</item>
+        <item>菜品厨打设置</item>
+        <item>菜品做法设置</item>
+        <item>餐桌资料维护</item>
+        <item>收银方式维护</item>
+        <item>营业班次</item>
+        <item>特殊操作原因</item>
+        <item>营业单据查询</item>
+        <item>当前台况统计</item>
+        <item>菜品销售流水查询 </item>
+        <item>收银流水查询</item>
+        <item>菜品历史特价查询 </item>
+        <item>菜品历史沽清查询</item>
+        <item>外卖收银结算</item>
+        <item>餐台锁态管理</item>
+        <item>开钱箱 </item>
+        <item>开台</item>
+        <item>转台</item>
+        <item>消台</item>
+        <item>点菜</item>
+        <item>结算</item>
+        <item>厨房催菜</item>
+        <item>菜品转台</item>
+        <item>接班操作</item>
+        <item>退菜</item>
+        <item>免服务费</item>
+        <item>免低消差</item>
+        <item>预打账单</item>
+        <item>快餐挂单</item>
+        <item>快餐外卖</item>
+        <item>前台营业情况统计</item>
+        <item>外卖退货</item>
+        <item>增加临时菜</item>
+        <item>反结账</item>
+        <item>退单</item>
+        <item>营业日结</item>
+        <item>前台营业</item>
+        <item>今日特价维护</item>
+        <item>今日菜品沽清</item>
+        <item>会员参数设置</item>
+        <item>会员资料维护</item>
+        <item>会员状态管理</item>
+        <item>充值会员充值</item>
+        <item>会员积分管理</item>
+        <item>会员类型变更</item>
+        <item>会员报表</item>
+        <item>会员卡芯片清除</item>
+        <item>商品入库</item>
+        <item>商品退货单</item>
+        <item>报损单</item>
+        <item>库存盘点</item>
+        <item>库存查询</item>
+        <item>盘点查询</item>
+        <item>进销存汇总报表</item>
+        <item>单据汇总查询</item>
+        <item>库存参数设置</item>
+        <item>菜品消费报表</item>
+        <item>菜品促销报表</item>
+        <item>餐桌营业数据统计</item>
+        <item>退菜情况报表</item>
+        <item>退菜情况报表</item>
+        <item>营业收银报表</item>
+        <item>服务费与低消情况查询</item>
+        <item>收银免单情况查询</item>
+        <item>日月周报表分析</item>
+        <item>日营业情况统计</item>
+        <item>营业日销售情况统计</item>
+        <item>品类销售营业分析</item>
+        <item>时段营业分析</item>
+        <item>菜品销售排行统计</item>
+        <item>服务员提成查询</item>
+        <item>反结帐查询</item>
+        <item>直销商品毛利情况表</item>
+        <item>公司信息设置</item>
+        <item>系统参数设置</item>
+        <item>操作员资料维护</item>
+        <item>操作权限维护</item>
+        <item>数据库备份</item>
+        <item>基础数据导出</item>
+        <item>基础数据导入</item>
+        <item>业务数据清除</item>
+        <item>权限设置</item>
+        <item>短信组管理</item>
+        <item>短信成员管理</item>
+        <item>短信设置</item>
+        <item>短信单发</item>
+        <item>短信群发</item>
+        <item>短信查询</item>
+    </string-array>
+    <string-array name="purviewtype_array">
+        <item>数据维护</item>
+        <item>数据维护</item>
+        <item>数据维护</item>
+        <item>数据维护</item>
+        <item>数据维护</item>
+        <item>数据维护</item>
+        <item>数据维护</item>
+        <item>数据维护</item>
+        <item>营业管理</item>
+        <item>营业管理</item>
+        <item>营业管理</item>
+        <item>营业管理</item>
+        <item>营业管理</item>
+        <item>营业管理</item>
+        <item>营业管理</item>
+        <item>营业管理</item>
+        <item>营业管理</item>
+        <item>营业管理</item>
+        <item>营业管理</item>
+        <item>营业管理</item>
+        <item>营业管理</item>
+        <item>营业管理</item>
+        <item>营业管理</item>
+        <item>营业管理</item>
+        <item>营业管理</item>
+        <item>营业管理</item>
+        <item>营业管理</item>
+        <item>营业管理</item>
+        <item>营业管理</item>
+        <item>营业管理</item>
+        <item>营业管理</item>
+        <item>营业管理</item>
+        <item>营业管理</item>
+        <item>营业管理</item>
+        <item>营业管理</item>
+        <item>营业管理</item>
+        <item>营业管理</item>
+        <item>营业管理</item>
+        <item>营业管理</item>
+        <item>营业管理</item>
+        <item>会员管理</item>
+        <item>会员管理</item>
+        <item>会员管理</item>
+        <item>会员管理</item>
+        <item>会员管理</item>
+        <item>会员管理</item>
+        <item>会员管理</item>
+        <item>会员管理</item>
+        <item>库存管理</item>
+        <item>库存管理</item>
+        <item>库存管理</item>
+        <item>库存管理</item>
+        <item>库存管理</item>
+        <item>库存管理</item>
+        <item>库存管理</item>
+        <item>库存管理</item>
+        <item>库存管理</item>
+        <item>报表中心</item>
+        <item>报表中心</item>
+        <item>报表中心</item>
+        <item>报表中心</item>
+        <item>报表中心</item>
+        <item>报表中心</item>
+        <item>报表中心</item>
+        <item>报表中心</item>
+        <item>报表中心</item>
+        <item>报表中心</item>
+        <item>报表中心</item>
+        <item>报表中心</item>
+        <item>报表中心</item>
+        <item>报表中心</item>
+        <item>报表中心</item>
+        <item>报表中心</item>
+        <item>系统管理</item>
+        <item>营业管理</item>
+        <item>系统管理</item>
+        <item>系统管理</item>
+        <item>系统管理</item>
+        <item>系统管理</item>
+        <item>系统管理</item>
+        <item>系统管理</item>
+        <item>系统管理</item>
+        <item>短信管理</item>
+        <item>短信管理</item>
+        <item>短信管理</item>
+        <item>短信管理</item>
+        <item>短信管理</item>
+        <item>短信管理</item>
+    </string-array>
+    
+     <string-array name="inven_par">
+        <item>库存单据打印合计金额位置</item>
+        <item>库存单据打印合计金额位置</item>
+        <item>用入库价更新采购价</item>
+    </string-array>
+    
+     <string-array name="rateSet_array">
+        <item>115200</item>
+        <item>38400</item>
+        <item>56000</item>
+        <item>57600</item>
+        <item>9600</item>
+    </string-array>
+
+</resources>
